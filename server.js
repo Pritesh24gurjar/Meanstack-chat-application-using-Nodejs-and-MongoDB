@@ -2,7 +2,7 @@ const mongo = require('mongodb').MongoClient;
 const client = require('socket.io').listen(4000).sockets;
 
 // Connect to mongo
-mongo.connect('mongodb://username:password@cluster0-shard-00-00.a9edz.mongodb.net:27017,cluster0-shard-00-01.a9edz.mongodb.net:27017,cluster0-shard-00-02.a9edz.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-xut9he-shard-0&authSource=admin&retryWrites=true&w=majority/mongochat', 
+mongo.connect('mongodb://chat_kisp:THATbitch69@cluster0-shard-00-00.a9edz.mongodb.net:27017,cluster0-shard-00-01.a9edz.mongodb.net:27017,cluster0-shard-00-02.a9edz.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-xut9he-shard-0&authSource=admin&retryWrites=true&w=majority/mongochat', 
 function(err, db){
     if(err){
         throw err;
